@@ -6,6 +6,8 @@
     <title>Mi portafolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Quicksand&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!-- Navbar -->
@@ -30,17 +32,16 @@
             <!-- Masthead Avatar Image
             <img class="masthead-avatar mb-4" src="assets/img/avataaars.svg" alt="Avatar" />-->
             <!-- Masthead Heading-->
-            <h1 class="masthead-heading mb-0">Michelle Ruvalcaba Reyes</h1>
-            
+            <h1 class="mb-0 text-secondary nombre">Michelle Ruvalcaba Reyes</h1>
             <!-- Masthead Subheading
             <p class="masthead-subheading font-weight-light mb-0">Estudiante de Ingeniería en Sistemas Computacionales</p>-->
         </div>
     </header>
     <!-- About -->
-    <section class="page-section bg-info mb-0" id="about">
+    <section class="page-section bg-info mb-6" id="about">
         <div class="container">
             <!-- About Section Heading-->
-            <h2 class="page-section-heading text-center mb-4">Sobre mí</h2>
+            <h1 class="page-section-heading text-center mb-4 letra">Sobre mí</h1>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light mb-4">
                 <div class="divider-custom-line"></div>
@@ -58,74 +59,178 @@
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <h4 class=" page-section-heading text-center mb-2">Lenguajes de programación</h4>
+                    <h2 class=" page-section-heading text-center mb-4 mt-4 letra">Lenguajes de programación</h2>
                     <p class="lead">
                         <div class="row">
-                            <div class="col-lg-3">
-                                <ul>
-                                    <li>HTML</li>
-                                    <li>CSS</li>
-                                    <li>JavaScript</li>
-                                    <li>TypeScript</li>
-                                </ul>
+                            <div class="d-flex justify-content-evenly">
+                                <img class="iconos" src="assets/c.svg" alt="C">
+                                <img class="iconos" src="assets/c-1.svg" alt="C++">
+                                <img class="iconos" src="assets/javascript.svg" alt="javascript">
+                                <img class="iconos" src="assets/typescript.svg" alt="typescript">
                             </div>
-                            <div class="col-lg-3">
-                                <ul>
-                                    <li>SQL</li>
-                                    <li>C</li>
-                                    <li>C++</li>
-                                </ul>
+                        </div>
+                        <div class="row">
+                            <div class="d-flex justify-content-evenly">
+                                <img class="iconos" src="assets/sql.svg" alt="SQL">
+                                <img class="iconos" src="assets/html-5-svgrepo-com.svg" alt="HTML">
+                                <img class="iconos" src="assets/css-3-svgrepo-com.svg" alt="css">
                             </div>
                         </div>
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <h4 class="page-section-heading text-center mb-2">Frameworks</h4>
+                    <h2 class="page-section-heading text-center mb-4 mt-4 letra">Frameworks</h2>
                     <p class="lead">
-                        <ul>
-                            <li>Bootstrap</li>
-                            <li>Node.js</li>
-                            <li>Angular</li>
-                        </ul>
+                        <div class="row">
+                            <div class="d-flex justify-content-evenly">
+                                <img class="iconos" src="assets/bootstrap-4-logo-svgrepo-com.svg" alt="Bootstrap">
+                                <img class="iconos" src="assets/node-js-svgrepo-com.svg" alt="Node.js">
+                                <img class="iconos" src="assets/angular-svgrepo-com.svg" alt="Angular">
+                            </div>
+                        </div>
                     </p>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <h4 class=" page-section-heading text-center mb-2">Plataformas</h4>
+                    <h2 class=" page-section-heading text-center mb-4 mt-4 letra">Plataformas</h2>
                     <p class="lead">
-                        <ul>
-                            <li>Firebase</li>
-                            <li>AWS</li>
-                            <li>Android Studio</li>
-                            <li>Git</li>
-                        </ul>
+                       <div class="row">
+                            <div class="d-flex justify-content-evenly">
+                                <img class="iconos" src="assets/firebase-svgrepo-com.svg" alt="Firebase">
+                                <img class="iconos" src="assets/aws-svgrepo-com.svg" alt="AWS">
+                                <img class="iconos" src="assets/git-svgrepo-com (1).svg" alt="Git">
+                                <img class="iconos" src="assets/logo-google-android-studio-svgrepo-com.svg" alt="Android Studio">
+                            </div>
+                        </div>
                     </p>
                 </div>
                 <div class="col-lg-6">
-                    <h4 class="page-section-heading text-center mb-2">Idiomas</h4>
-                    <p class="lead">
-                        <ul>
-                            <li>Español - Nativo</li>
-                            <li>Inglés - C1</li>
-                        </ul>
-                    </p>
+                    <h2 class="page-section-heading text-center mb-4 mt-4 letra">Idiomas</h2>
+                    <div class="row">
+                        <div class="col-lg-6 text-center">
+                            <h4 style="font-weight: bold;">Español:</h4>
+                            <h4>Nativo</h4>
+                        </div>
+                        <div class="col-lg-6 text-center">
+                            <h4 style="font-weight: bold;">Inglés:</h4>
+                            <h4>C1</h4>
+                        </div>
+                    </div>
                 </div>
+                <!-- Habilidades -->
+                <!-- Sistemas Operativos -->
             </div>
         </div>
     </section>
     <!-- Portafolio -->
-    <section class="page-section portfolio" id="portfolio">
-        <div class="container">
+    <section class="page-section portfolio " id="portfolio">
+        <div class="container mt-4">
             <!-- Portfolio Section Heading-->
-            <h2 class="page-section-heading text-center text-secondary mb-4">Portafolio</h2>
+            <h1 class="page-section-heading text-center text-secondary mb-4 letra">Portafolio</h1>
             <!-- Icon Divider-->
             <div class="divider-custom mb-5">
                 <div class="divider-custom-line"></div>
                 <div class="divider-custom-line"></div>
             </div>
+            <div class="row row-cols-1 row-cols-md-2 align-items-md-center g-5 py-5">
+                <div class="col">
+                    <h5 class="fw-bold text-body-emphasis">Proyectos Personales</h5>
+
+                    <div class="row row-cols-1 row-cols-sm-2 g-4">
+                      <div class="col d-flex flex-column gap-2">
+                        <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-info bg-gradient fs-4 rounded-3">
+                          <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#collection"></use>
+                          </svg>
+                        </div>
+                        <a href="https://github.com/m1ch4ll44/clon-google">
+                            <h4 class="fw-semibold mb-0 text-body-emphasis">Clon de Google</h4>
+                        </a>
+                        <p class="text-body-secondary">Proyecto realizado en el curso de Tecnolochicas PRO para clonar la interfaz de google.</p>
+                      </div>
+<!--             
+                      <div class="col d-flex flex-column gap-2">
+                        <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-info bg-gradient fs-4 rounded-3">
+                          <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#gear-fill"></use>
+                          </svg>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                        <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                      </div>
+            
+                      <div class="col d-flex flex-column gap-2">
+                        <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-info bg-gradient fs-4 rounded-3">
+                          <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#speedometer"></use>
+                          </svg>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                        <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                      </div>
+            
+                      <div class="col d-flex flex-column gap-2">
+                        <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-info bg-gradient fs-4 rounded-3">
+                          <svg class="bi" width="1em" height="1em">
+                            <use xlink:href="#table"></use>
+                          </svg>
+                        </div>
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                        <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                      </div>-->
+                    </div>
+                  </div> 
+
+                <div class="col">
+                    <h5 class="fw-bold text-body-emphasis">Proyectos en los que he participado</h5>
+                  <div class="row row-cols-1 row-cols-sm-2 g-4">
+                    <div class="col d-flex flex-column gap-2">
+                      <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-info bg-gradient fs-4 rounded-3">
+                        <svg class="bi" width="1em" height="1em">
+                          <use xlink:href="#collection"></use>
+                        </svg>
+                      </div>
+                      <a href="https://github.com/LuisNav6/HotelJacquelineProject">
+                        <h4 class="fw-semibold mb-0 text-body-emphasis">Hotel Jaqueline</h4>
+                    </a>
+                      <p class="text-body-secondary">Proyecto universitario realizado para manegar el sitio web de un hotel.</p>
+                    </div>
+          
+                    <!-- <div class="col d-flex flex-column gap-2">
+                      <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-info bg-gradient fs-4 rounded-3">
+                        <svg class="bi" width="1em" height="1em">
+                          <use xlink:href="#gear-fill"></use>
+                        </svg>
+                      </div>
+                      <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                      <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+          
+                    <div class="col d-flex flex-column gap-2">
+                      <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-info bg-gradient fs-4 rounded-3">
+                        <svg class="bi" width="1em" height="1em">
+                          <use xlink:href="#speedometer"></use>
+                        </svg>
+                      </div>
+                      <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                      <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                    </div>
+          
+                    <div class="col d-flex flex-column gap-2">
+                      <div class="feature-icon-small d-inline-flex align-items-center justify-content-center text-bg-info bg-gradient fs-4 rounded-3">
+                        <svg class="bi" width="1em" height="1em">
+                          <use xlink:href="#table"></use>
+                        </svg>
+                      </div>
+                      <h4 class="fw-semibold mb-0 text-body-emphasis">Featured title</h4>
+                      <p class="text-body-secondary">Paragraph of text beneath the heading to explain the heading.</p>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
             <!-- Portfolio Grid Items-->
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+            <!-- <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
                 <div class="col">
                     <div class="portfolio-item">
                         <img class="img-fluid" src="assets/img/portfolio/cabin.png" alt="Portfolio Item 1" />
@@ -185,10 +290,13 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
             </div> 
         </div>
     </section>
+    <!-- Certificados -->
+    <!-- Experiencia en el área -->
+    <!-- Educación -->
     <!-- Footer -->
     <div class="container">
         <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
@@ -203,15 +311,18 @@
                     <p>michelle5442@outlook.com</p>
                 </li>
                 <li class="ms-3">
-                    <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <a href="http://www.linkedin.com/in/michelle-ruvalcaba-918215297" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
                         <i class="bi bi-linkedin"></i>
+                    </a>
+                </li>
+                <li class="ms-3">
+                    <a href="https://github.com/m1ch4ll44" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                        <i class="bi bi-github"></i>
                     </a>
                 </li>
             </ul>
         </footer>
     </div>
-    <!-- Certificados -->
-    
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
