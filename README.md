@@ -1,5 +1,5 @@
-# Portafolio personal: Tecnolochicas PRO
-Portafolio de actividades hechos en el bootcamp de Tecnolochicas PRO, es una página web responsiva.
+# Portafolio personal:
+Portafolio de actividades hechos, es una página web responsiva.
 
 El propósito de la creación de este sitio web es mostrar el portafolio de los proyectos que he creado y la experiencia en el área.
 
