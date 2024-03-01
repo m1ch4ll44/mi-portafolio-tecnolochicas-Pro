@@ -1,9 +1,9 @@
 # Portafolio personal:
-Portafolio de actividades hechos, es una página web responsiva.
+Portafolio de actividades, es una página web responsiva.
 
 El propósito de la creación de este sitio web es mostrar el portafolio de los proyectos que he creado y la experiencia en el área.
 
-Incluye las secciones: sobre mí, portafolio, contacto.
+Incluye las secciones: sobre mí, portafolio, experiencia laboral y contacto.
 
 <a href="https://coruscating-smakager-a48cdd.netlify.app/" target="_blank">**Visitalo ahora** 🚀</a>
 
@@ -21,7 +21,7 @@ Si estás interesad@ en compartir o conectar para algún proyecto u oportunidad 
 
 <a href="http://www.linkedin.com/in/michelle-ruvalcaba-918215297"><img src="https://www.felberpr.com/wp-content/uploads/linkedin-logo.png" width="30"></img></a>
 
-© 2023 Michelle Ruvalcaba (Programa Technolochicas PRO)
+© 2024 Michelle Ruvalcaba
 
 
 
